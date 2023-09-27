@@ -35,7 +35,7 @@ def body():
             with col1:
                 pie_chart_emotions(df_filter)
             with col2:
-                box_plot_emotions(df)
+                box_plot_emotions(df_filter)
 
         with st.expander("Comentarios", expanded=True):
             col1, col2 = st.columns(2)

@@ -53,6 +53,4 @@ def body():
 
     with tab2:
 
-        with st.expander("Report", expanded=True):
-            profile = ProfileReport(df, minimal=True)
-            st_profile_report(profile)
+        pass

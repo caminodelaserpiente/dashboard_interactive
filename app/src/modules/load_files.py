@@ -11,7 +11,7 @@ def select_json(output_folder):
     selected_file = st.selectbox("Select a JSON file:", 
                             json_files
                             )
-    with open(os.path.join(output_folder, selected_file, , encoding='utf-8'), "r") as document:
+    with open(os.path.join(output_folder, selected_file), "r", encoding='utf-8') as document:
         data = json.load(document)
     return data
 
